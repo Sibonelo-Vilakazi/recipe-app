@@ -6,21 +6,3 @@ body,html{
     height: 100%;
 }
 
-.btn-view{
-    width: 50%;
-    padding: 10px;
-    color: white;
-    background:orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-
-    &:hover{
-        background:rgba(orange, 0.5);
-    }
-
-}
