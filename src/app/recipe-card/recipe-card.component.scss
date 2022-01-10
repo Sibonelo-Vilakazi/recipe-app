@@ -1,0 +1,34 @@
+@import '/src/themes/theme.scss';
+.recipe-card{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: $box-shadow;
+    overflow: hidden;
+    .recipe-card-header{
+        width: 100%;
+        height: 300px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .recipe-card-body{
+
+        width: 100%;
+        padding: $main-spacing;
+        display: flex;
+        justify-content: center;
+        p{
+            margin-top: $main-spacing;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    .recipe-card-footer{
+        width: 100%;
+        padding: $main-spacing;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,14 @@
+<div class="header-text">
+    <p>Find your recipe from the BugArray Coding Kitchen</p>
+</div>
+<div class="search-display">
+    <app-search-bar></app-search-bar>
+</div>
+
+
+<div class="recipes-display">
+    <app-recipe-card *ngFor="let recipe of recipesData;let i=index"
+    class="recipe" [index]="i" [recipe]="recipe"></app-recipe-card>
+    
+    
+</div>
